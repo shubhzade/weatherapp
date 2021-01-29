@@ -1,0 +1,37 @@
+/* c461a9543f8427022f1d1e083d3910ed */
+
+
+.box{
+    background: lemonchiffon;
+    border: 2px solid black;
+   /* display: flex;
+   justify-content: center; */
+   height: 500px;
+   width: 30%;
+   display: block;
+   margin: auto;
+   margin-top: 70px;
+   text-align: center;
+  
+
+}
+.inputsearch {
+    margin-top: 50px;
+    height: 38px;
+    width: 247px;
+    border-radius: 106px;
+}
+
+/* font-family: 'Roboto Mono', monospace; */
+
+
+.wave-3{
+    animation: drift 7000ms infinite linear;
+    opacity: 0.1;
+    z-index: 2 !important;
+}
+.wave-2{
+    animation: drift 7000ms infinite linear;
+    opacity: 0.1;
+    z-index: -1;
+}
